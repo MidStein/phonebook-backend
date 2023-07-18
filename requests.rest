@@ -20,3 +20,13 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3001/api/persons
+
+###
+PUT http://localhost:3001:w
+/api/persons/64b68dd78403f2b7a06b4753
+Content-Type: application/json
+
+{
+  "name": "em",
+  "number": "90349"
+}
