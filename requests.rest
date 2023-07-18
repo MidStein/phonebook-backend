@@ -5,15 +5,18 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-  "name": "Elon",
-  "number": "99129"
+  "name": "Elon Musk",
+  "number": "1234567890"
 }
 
 ###
-POST http://localhost:3001/api/persons
+POST https://phonebook-backend-jrrh.onrender.com/api/persons
 Content-Type: application/json
 
 {
-  "name": "Shaktiman",
-  "number": "90148"
+  "name": "Elon Musk",
+  "number": "1234567890"
 }
+
+###
+GET http://localhost:3001/api/persons
